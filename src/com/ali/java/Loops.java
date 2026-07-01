@@ -2,17 +2,12 @@ package com.ali.java;
 
 public class Loops {
     public static void main( String[] args ) {
-      int marks = 95;
-      if (marks >=90){
-          System.out.println("A+");
-      }else if (marks >=80){
-          System.out.println("B");
-      }else if (marks >=60){
-          System.out.println("c");
-    }else if (marks >=40) {
-          System.out.println("D");
-      } else {
-          System.out.println("you are failed");
-      }
+        int n= 4324658;
+        int digits=0;
+        while(n>0){
+            n=n/10;
+            digits++;
+            System.out.println(digits);
+        }
 }
 }
