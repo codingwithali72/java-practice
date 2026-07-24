@@ -52,6 +52,8 @@ public class Test {
         System.out.println("CGPA:"+CGPA);
         System.out.println("College:"+college);
 
+        int ageing=96;
+
     }
 
 }
