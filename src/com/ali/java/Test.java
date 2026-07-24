@@ -53,6 +53,7 @@ public class Test {
         System.out.println("College:"+college);
 
         int ageing=96;
+        int beforeage=78;
 
     }
 
