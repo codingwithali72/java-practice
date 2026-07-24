@@ -40,8 +40,17 @@ public class Test {
         String name="Shujaat Ali Punjani";
         int rollno=241242;
         int age=20;
-        float CGPA=8.96f;
+        double CGPA=8.96;
         String college="M.H. Saboo Siddik College of engineering";
+
+        age=age+1;
+        CGPA=CGPA+0.2;
+
+        System.out.println("Name:"+name);
+        System.out.println("Rollno:"+rollno);
+        System.out.println("Age:"+age);
+        System.out.println("CGPA:"+CGPA);
+        System.out.println("College:"+college);
 
     }
 
